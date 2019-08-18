@@ -12,7 +12,7 @@ router.get('/', function(req, res) {
       delete unicorn["funding_rounds"];
       return unicorn;
     });
-    res.json(unicorns);
+    res.json(doc);
   });
 });
 
